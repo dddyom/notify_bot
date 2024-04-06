@@ -2,10 +2,9 @@ from aiogram import Router
 
 
 def get_handlers_router() -> Router:
-    from . import info, start
+    from . import info
 
     router = Router()
-    router.include_router(start.router)
     router.include_router(info.router)
 
     return router

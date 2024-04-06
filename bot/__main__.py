@@ -3,7 +3,7 @@ import logging
 import sys
 
 from bot.loader import bot, dp
-from handlers import get_handlers_router
+from .handlers import get_handlers_router
 
 
 async def on_startup():
