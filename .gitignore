@@ -1,0 +1,12 @@
+.env
+.idea/
+.vscode/
+node_modules/
+dist/
+*.pyc
+*.egg-info
+*.egg
+*.egg-link
+__pycache__
+venv
+
